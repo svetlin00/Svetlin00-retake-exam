@@ -6,4 +6,4 @@ test('Check home page', async ({ page }) => {
     const text = await heading.textContent();
     expect(text).toContain('Home');  
   });
-  
+  <a href="/">Home</a>
